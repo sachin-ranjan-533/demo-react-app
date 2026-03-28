@@ -5,7 +5,7 @@ import ToDos from './components/ToDos'
 function App() {
   return (
     <>
-      <h1>Welcome to My To-Do Application</h1>
+      <h1>Welcome to My To-Dos Application</h1>
       <h3>Create new To-Do</h3>
       <AddTodo />
       <h3>List of All To-Dos</h3>
