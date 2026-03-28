@@ -55,3 +55,7 @@ jobs:
       run: |
         kubectl set image deployment/demo-react-app \
         demo-react-app=$ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR_REPOSITORY:latest
+
+    -name: restart the Pods
+    run: |
+      kubect rollout restart deployment demo-react-app

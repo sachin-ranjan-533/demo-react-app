@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <h1>Welcome to My Application</h1>
+      <h3>Create new To-Do</h3>
       <AddTodo />
+      <h3>List of All To-Dos</h3>
       <ToDos />
     </>
   )
